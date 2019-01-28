@@ -13,3 +13,4 @@ function createFareMultiplier(number) {
   const fareMultiplier = function (fare) { return fare * number;};
   return fareMultiplier;
 }
+
