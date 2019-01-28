@@ -7,4 +7,4 @@ const returnLastTwoDrivers = function (drivers) {
   return drivers.slice(-2);
 }
 
-const selectingDrivers = Object.assign({}, );
+const selectingDrivers = Object.assign({}, returnFirstTwoDrivers(drivers), returnLastTwoDrivers(drivers));
